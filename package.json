@@ -1,0 +1,24 @@
+{
+  "name": "hierarchical-sever-config-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-rc": "configservice_DB__PASSWORD=password configservice_DB__URL=http://database.com configservice_redis__password=actualpassword node . --foo.bar=baz --foobar=baz --config rc/config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerreece22/hierarchical-sever-config-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerreece22/hierarchical-sever-config-poc/issues"
+  },
+  "homepage": "https://github.com/tylerreece22/hierarchical-sever-config-poc#readme",
+  "description": "",
+  "dependencies": {
+    "convict": "^5.2.1",
+    "rc": "^1.2.8"
+  }
+}

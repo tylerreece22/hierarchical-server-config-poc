@@ -1,0 +1,6 @@
+{
+  "redis": {
+    "url": "http://redis.com",
+    "password": "fillerPassword"
+  }
+}
